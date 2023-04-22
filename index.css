@@ -13,7 +13,10 @@ body {
 
  li
  {list-style: none;}
- 
+ ul{
+    margin: 0px;
+    padding: 0px;
+ }
  main,footer{
     text-align: center;
  }
@@ -104,7 +107,7 @@ section article:last-child{
     }
 .biographs{
     
-    padding-block-start: 17%;
+    padding-block-start: 20%;
     text-align: left;
     background-color: var(--Very-Light-Gray);
 
@@ -113,6 +116,126 @@ section article:last-child{
     background-color: white;
     margin-block: 30px;
     border-radius: 0px 0px 10px 10px;
+}
+.biographs .article-text{
+    padding: 5%;
+}
+.biographs h2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+}
+.biographs .article-text p{
+    font-size: 15px;
+
+}
+.biographs .article-text h3{
+font-size: 18px;
+font-weight: 300;
+}
+.biographs article span{
+    color: var(--Grayish-Blue);
+    font-weight: 300;
+    font-size: 13px;
+}
+.secondary{
+    padding-block-end: 50px;
+    color: white;
+    background-color: var(--Dark-Blue);
+    text-align: center;
+}
+.socials{
+    padding-block:0 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.socials i{
+    padding-inline: 7px;
+    
+}
+
+
+.adverts img{
+    padding-block: 40px;
+}
+.secondary .link-list li{
+    padding-block:0.4rem;
+    font-weight: 300;
+}
+.secondary .link-list {
+    margin-block-end: 30px;
+}
+.secondary > a{
+    margin-top: 200px;
+    border-radius: 20px;
+    padding-inline: 45px;
+    padding-block: 15px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    color: var(--Light-Grayish-Blue);
+ 
+} 
+.secondary > p{
+    padding-block-start: 50px;
+}
+@media(min-width: 745px){
+.intro{
+    display: flex;
+    margin-inline: 10%;
+    margin-inline-end: 0;
+    overflow: hidden;
+    
+    
+}
+.intro .intro-desktop{
+    
+    
+}
+.intro .intro-desktop h1{
+       
+}
+.intro img{
+    background-image: none;
+
+}
+.intro .head-image{
+    order: 1;
+    width: 120%;
+    background-image: url(images/bg-intro-desktop.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.artic-link{
+    text-align: left;
+    margin-inline: 0px;
+    max-width: 100%;
+    padding-inline: 5%;
+}
+.artic-link .cards{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+    
+}
+.graph{
+    display: flex;
+    gap: 15px;
+    text-align: left;
+}
+.biographs{
+    padding-block-start: 4rem;
+}
+.biographs img{
+    border-radius: 10px;
+}
+.bio h2{
+    text-align: left;
+}
+.secondary{
+    margin-inline: 0px;
+    max-width: 100%;
+}
 }
 
 
