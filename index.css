@@ -72,6 +72,9 @@ main .intro-btn{
    
 margin-top: 40px;
 }
+.bio{
+    padding-inline: 0px;
+}
 .intro{
     padding-block-end: 100px;
 }
@@ -139,7 +142,6 @@ font-weight: 300;
     font-size: 13px;
 }
 .secondary{
-    padding-block-end: 50px;
     color: white;
     background-color: var(--Dark-Blue);
     text-align: center;
@@ -164,9 +166,15 @@ font-weight: 300;
     font-weight: 300;
 }
 .secondary .link-list {
-    margin-block-end: 30px;
+    
 }
-.secondary > a{
+.footer-foot{
+    padding-block: 3rem;
+}
+.footer-foot p{
+    padding-top: 2rem;
+}
+.inline .footer-foot> a{
     margin-top: 200px;
     border-radius: 20px;
     padding-inline: 45px;
@@ -210,11 +218,12 @@ font-weight: 300;
     text-align: left;
     margin-inline: 0px;
     max-width: 100%;
-    padding-inline: 5%;
+    padding: 0px;
+
 }
 .artic-link .cards{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     padding-top: 40px;
     
 }
@@ -233,8 +242,46 @@ font-weight: 300;
     text-align: left;
 }
 .secondary{
+    display: flex;
     margin-inline: 0px;
-    max-width: 100%;
+    padding-block-end: 0px;
+
+    
+}
+.secondary .link-list li{
+    padding-block: 0px;
+}
+.inline{
+    display: flex;
+    padding-inline: 0px;
+    justify-content: space-between;
+    
+
+}
+.two-links{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    text-align: left;
+}
+footer nav{
+    display: flex;
+    width: 55%;
+    padding-block: 3rem;   
+}
+.adverts{
+    text-align: left;
+}
+.adverts img{
+    padding-block: 0px;
+    
+}
+.socials{
+    padding-block: 0px;
+    margin: 0px;
+}
+.footer-foot{
+    text-align: right;
 }
 }
 
