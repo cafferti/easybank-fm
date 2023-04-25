@@ -187,38 +187,11 @@ font-weight: 300;
     padding-block-start: 50px;
 }
 @media(min-width: 745px){
-.intro{
-    display: flex;
-    margin-inline: 10%;
-    margin-inline-end: 0;
-    overflow: hidden;
-    
-    
-}
-.intro .intro-desktop{
-    
-    
-}
-.intro .intro-desktop h1{
-       
-}
-.intro img{
-    background-image: none;
-
-}
-.intro .head-image{
-    order: 1;
-    width: 120%;
-    background-image: url(images/bg-intro-desktop.svg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 .artic-link{
     text-align: left;
     margin-inline: 0px;
     max-width: 100%;
-    padding: 0px;
+    
 
 }
 .artic-link .cards{
@@ -235,8 +208,14 @@ font-weight: 300;
 .biographs{
     padding-block-start: 4rem;
 }
+.biographs article{
+    margin-block-end: 0px;
+}
 .biographs img{
     border-radius: 10px;
+}
+.bio{
+padding-block-end: 6rem;
 }
 .bio h2{
     text-align: left;
@@ -249,7 +228,10 @@ font-weight: 300;
     
 }
 .secondary .link-list li{
-    padding-block: 0px;
+    padding-block:0.3rem;
+}
+.secondary .link-list :first-child{
+    padding-block-start: 0rem;
 }
 .inline{
     display: flex;
@@ -264,16 +246,29 @@ font-weight: 300;
     justify-content: space-around;
     text-align: left;
 }
+
 footer nav{
     display: flex;
     width: 55%;
     padding-block: 3rem;   
+}
+.container > p{
+    max-width: 38rem;
+}
+.footer-foot p{
+    padding-block-start: 3rem;
+}
+
+article h3{
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 .adverts{
     text-align: left;
 }
 .adverts img{
     padding-block: 0px;
+    padding-block-end: 2.5rem;
     
 }
 .socials{
@@ -282,7 +277,6 @@ footer nav{
 }
 .footer-foot{
     text-align: right;
-}
-}
+}}
 
 
