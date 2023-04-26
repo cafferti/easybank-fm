@@ -43,6 +43,17 @@ body {
     color: var(--Dark-Blue);
     margin: 0px;
  }
+ .bg-body-tertiary{
+    background-color: white;
+ }
+ body{
+    background-color: white;
+ }
+ 
+ .navbar .container{
+    background-color: white;
+    
+ }
  nav .navbar-toggler{
     border: none;
  }
@@ -55,14 +66,13 @@ body {
  }
  .navbar-collapse{
     position: absolute;
-    top: 5rem;
+    top: 3rem;
     width: 90%;
     margin-inline: 1rem;
     margin-left: 0px;
     align-self: center;
     text-align: center;
     padding-block: 2rem;
-    background-color: white;
     border-radius: 3px;
  }
  .nav-link.greeny{
@@ -100,8 +110,12 @@ margin-top: 40px;
 .bio{
     padding-inline: 0px;
 }
+main .container-fluid{
+    background-color: var(--Very-Light-Gray);
+}
 .intro{
     padding-block-end: 100px;
+    
 }
  .artic-link{
     background-color: var(--Light-Grayish-Blue);
@@ -345,13 +359,13 @@ article h3{
     text-align: right;
 }
 .navbar-collapse{
+    width: fit-content;
+    flex-grow: 0;
     position: unset;
     margin: 0px;
-    width: 100%;
     margin-inline: 1rem;
     margin-left: 0px;
     padding-block: 0rem;
-    background-color: white;
     border-radius: 0px;
 }
 .nav-link.greeny{
@@ -364,8 +378,12 @@ article h3{
  
 }
 .navbar .container{
-    justify-content: space-around;
+    justify-content: space-between;
 }
+.navbar .container{
+    background-color: white;
+    padding-block:1rem;
+ }
  }
 
 
