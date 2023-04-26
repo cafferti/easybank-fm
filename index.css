@@ -48,45 +48,59 @@ body {
  }
  body{
     background-color: white;
+    width: 100vw;
+ }
+ header .navbar{
+    margin: 0px;
  }
  
  .navbar .container{
     background-color: white;
+    margin-top: -8px;
+    padding-block: 1rem;
     
  }
+ .head-image{
+    width: 100%;
+    
+    
+
+ }
+ main .intro-image{
+    width: 100%;
+    margin-top: -135px;    
+}
  nav .navbar-toggler{
     border: none;
+    margin-right: -10rem;
  }
  .navbar-toggler-icon{
     width: 3rem;
     height: 1.8rem;
+    
  }
  nav .container{
     position: relative;
  }
  .navbar-collapse{
+    background-color:var(--White);
     position: absolute;
-    top: 3rem;
+    top: 5rem;
+    left: 5%;
     width: 90%;
-    margin-inline: 1rem;
+    /* margin-inline: 1rem; */
     margin-left: 0px;
     align-self: center;
     text-align: center;
     padding-block: 2rem;
-    border-radius: 3px;
+    border-radius: 10px;
  }
  .nav-link.greeny{
     display: none;
  }
 
 
-main .intro-image{
-    width: 100%;
-    margin-top: -135px;
-    background-image: url(images/bg-intro-mobile.svg);
-    background-repeat: no-repeat;
-    
-}
+
 main h1{
     font-size: 40px;
     padding-block-start: 30px;
@@ -110,11 +124,19 @@ margin-top: 40px;
 .bio{
     padding-inline: 0px;
 }
+main{
+    
+}
 main .container-fluid{
     background-color: var(--Very-Light-Gray);
+    
 }
 .intro{
-    padding-block-end: 100px;
+    background-image: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top -80px right 0px;
+    background-size: 100%;
+    background-color: white;
     
 }
  .artic-link{
@@ -237,6 +259,7 @@ main .intro{
     padding-block-end: 0px;
     margin-inline-start: 8%;
     width: 100%;
+    background: none;
 }
 main .intro .head-image{
     order: 1;
@@ -268,6 +291,7 @@ main .intro-image{
 }
 .intro-desktop{
 text-align: left;
+margin-inline: 0px;
 width: 50%;
 }
 .intro-desktop h1{
@@ -359,6 +383,7 @@ article h3{
     text-align: right;
 }
 .navbar-collapse{
+    background-color: white;
     width: fit-content;
     flex-grow: 0;
     position: unset;
@@ -383,6 +408,11 @@ article h3{
 .navbar .container{
     background-color: white;
     padding-block:1rem;
+ }
+ }
+ @media(max-width: 993px){
+    .nav-link.greeny{
+        display: none;
  }
  }
 
