@@ -308,7 +308,8 @@ main .intro .head-image{
 main .intro-image{
     align-self: flex-end;
     background-image: none;
-    margin-top: 0px;
+    margin-top: -4rem;
+    margin-right: -17rem;
     margin-block-end: -8rem;
     height:650px;
     width: 550px;
@@ -334,6 +335,7 @@ width: 50%;
 
 .artic-link .container ,.bio ,.inline{
     margin-inline: 7%; 
+    width: 90%;
     
 }
 .intro{
@@ -442,7 +444,7 @@ article h3{
     display: inline;
     border-radius: 20px;
     padding-inline: 45px;
-    padding-block: 15px;
+    padding-block: 0.8rem;
     background: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
     color: var(--Light-Grayish-Blue);
  
@@ -452,14 +454,19 @@ article h3{
 }
 .navbar .container{
     background-color: white;
-    padding-block:1rem;
+    padding-block:2rem;
     
  }
+
+.navbar{
+    padding-block: 2rem;
+}
  }
  
  @media(max-width: 993px){
     .nav-link.greeny{
         display: none;
+        
  }
  }
  
