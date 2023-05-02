@@ -204,6 +204,7 @@ section article:last-child{
     background-color: white;
     margin-block: 30px;
     border-radius: 0px 0px 10px 10px;
+    margin-inline: 7%;
 }
 .biographs .article-text{
     padding: 5%;
@@ -372,6 +373,7 @@ nav .navbar-nav a{
 }
 .biographs article{
     margin-block-end: 0px;
+    margin-inline: unset;
 }
 .biographs img{
     border-radius: 10px;
