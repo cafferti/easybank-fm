@@ -4,6 +4,7 @@
 body {
     background-color: var(--Very-Light-Gray);
     font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
 
   }
   a
@@ -299,10 +300,9 @@ main .intro .head-image{
    width: 50%;
     padding-inline-end: 0px;
     background-image: url(images/bg-intro-desktop.svg);
-    background-size: cover;
-    background-size: 100%;
+    background-size: 110%;
     background-repeat: no-repeat;
-    background-position: top -128px right -80px; 
+    background-position: top -128px right -80px ; 
      
 
 }
@@ -312,7 +312,7 @@ main .intro-image{
     margin-top: -4rem;
     margin-right: -17rem;
     margin-block-end: -8rem;
-    height:650px;
+    height:610px;
     width: 550px;
     
 
@@ -322,15 +322,21 @@ main .intro-image{
     overflow: hidden;
 }
 .intro-desktop{
+    width: 50%;
 text-align: left;
-width: 50%;
-padding-block-start: 3rem;
+padding-block: 4rem;
+padding-inline-end: rem;
 
 }
 .intro-desktop h1{
     font-size: 4rem;
 }
 
+nav .navbar-nav a{
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+
+}
 
 
 /* reseting container margin */
@@ -342,6 +348,7 @@ padding-block-start: 3rem;
 }
 .intro{
     margin-left: 7%;
+
 }
 /* reseting container margin */
 
@@ -369,6 +376,10 @@ padding-block-start: 3rem;
 .bio{
 padding-block-end: 6rem;
 }
+.bio h3:hover{
+    color: var(--Lime-Green);
+    cursor: pointer;
+}
 .bio h2{
     text-align: left;
 }
@@ -382,6 +393,9 @@ padding-block-end: 6rem;
 .secondary .link-list li{
     padding-block:0.3rem;
     
+}
+.secondary .link-list li a:hover{
+color: var(--Lime-Green);
 }
 .secondary .link-list :first-child{
     padding-block-start: 0rem;
@@ -451,25 +465,44 @@ article h3{
     color: var(--Light-Grayish-Blue);
  
 }
+.nav-link.greeny:hover{
+    background: linear-gradient(to right,hsl(136, 56%, 70%),hsl(192, 60%, 76%)); 
+}
 .navbar .container{
     justify-content: space-between;
 }
 .navbar .container{
     background-color: white;
-    padding-block:2rem;
-    
+     
+ }
+ main a:hover , .inline .footer-foot> a:hover{
+    background: linear-gradient(to right,hsl(136, 56%, 70%),hsl(192, 60%, 76%)); 
+
  }
 
-.navbar{
+
+.navbar-nav .nav-link{
     padding-block: 2rem;
+} 
+.navbar-nav a:hover {
+    border-bottom: solid var(--Lime-Green);
+
 }
+ul.socials li:hover{
+    color: var(--Lime-Green);
+}
+ul.navbar-nav li {
+    padding-inline: 1rem;
  }
+ }
+ 
  
  @media(max-width: 993px){
     .nav-link.greeny{
         display: none;
         
  }
+ 
  }
  
 
